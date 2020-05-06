@@ -4,11 +4,13 @@ from PyQt5 import QtWidgets, uic
 import sys, time
 
 
-class Window(QtWidgets.QMainWindow, Ui_MainWindow):
+class Window(QtWidgets.QMainWindow, Ui_MainWindow): # create the main GUI window
     def __init__(self):
         QtWidgets.QMainWindow.__init__(self)
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
+        
+        # Everything in the chucks below is connecting functions to widgets / buttons in Qt
         
         self.ui.push_connect.clicked.connect(dorna_connect)
         self.ui.push_home.clicked.connect(dorna_home)
@@ -32,6 +34,8 @@ class Window(QtWidgets.QMainWindow, Ui_MainWindow):
         self.ui.j4_relative_push.clicked.connect(self.j4_relative)
         
         
+    # Below are the functions being connected to the widgets / buttons        
+   
     def j0_absolute(self):
         val = self.ui.j0_abs_line_edit.text()
         val = float(val)
@@ -99,10 +103,10 @@ class Window(QtWidgets.QMainWindow, Ui_MainWindow):
         j4.calibrate()
 
 
-dorna_connect()
-connected = check_connect()
+dorna_connect() # connect to the robot
+connected = check_connect() # confirm the robot is properly connected
 
-robot.set_limit({'j0':[-360, 720]})
+robot.set_limit({'j0':[-360, 720]}) # set limit for joint 0
 
 if connected == False:
     print('Try reconnecting USB and restarting program.\n\n')
