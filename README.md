@@ -13,7 +13,8 @@ Everything is in Python- make sure you read our final project paper which is als
 
 
 Modules you'll need to run these programs (off the top of my head, see the imports in the files themselves for a more accurate list)
-- dorna 
+- dorna
+- json
 - PyQt5
 
 
