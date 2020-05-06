@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>442</width>
+    <height>467</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="19" column="2">
+     <widget class="QPushButton" name="j4_absolute_push">
+      <property name="text">
+       <string>Move Absolute</string>
+      </property>
+     </widget>
+    </item>
+    <item row="15" column="1">
+     <widget class="QLineEdit" name="j3_abs_line_edit"/>
+    </item>
+    <item row="16" column="2">
+     <widget class="QPushButton" name="j3_relative_push">
+      <property name="text">
+       <string>Move Relative</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="j0_abs_line_edit"/>
+    </item>
+    <item row="7" column="0" colspan="3">
+     <widget class="Line" name="line_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="1">
+     <widget class="QLineEdit" name="j2_abs_line_edit"/>
+    </item>
+    <item row="10" column="0">
+     <widget class="QLabel" name="j2_label">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Joint 2</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="j1_label">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Joint 1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0" colspan="3">
+     <widget class="Line" name="line">
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="2">
+     <widget class="QPushButton" name="j2_absolute_push">
+      <property name="text">
+       <string>Move Absolute</string>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="0" colspan="3">
+     <widget class="Line" name="line_3">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="19" column="1">
+     <widget class="QLineEdit" name="j4_abs_line_edit"/>
+    </item>
+    <item row="20" column="2">
+     <widget class="QPushButton" name="j4_relative_push">
+      <property name="text">
+       <string>Move Relative</string>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="2">
+     <widget class="QPushButton" name="j2_relative_push">
+      <property name="text">
+       <string>Move Relative</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QPushButton" name="j0_relative_push">
+      <property name="text">
+       <string>Move Relative</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QPushButton" name="j0_absolute_push">
+      <property name="text">
+       <string>Move Absolute</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="j0_label">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Joint 0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="15" column="2">
+     <widget class="QPushButton" name="j3_absolute_push">
+      <property name="text">
+       <string>Move Absolute</string>
+      </property>
+     </widget>
+    </item>
+    <item row="19" column="0">
+     <widget class="QLabel" name="j4_label">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Joint 4</string>
+      </property>
+     </widget>
+    </item>
+    <item row="15" column="0">
+     <widget class="QLabel" name="j3_label">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Joint 3</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="2">
+     <widget class="QPushButton" name="j1_relative_push">
+      <property name="text">
+       <string>Move Relative</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="j1_abs_line_edit"/>
+    </item>
+    <item row="5" column="2">
+     <widget class="QPushButton" name="j1_absolute_push">
+      <property name="text">
+       <string>Move Absolute</string>
+      </property>
+     </widget>
+    </item>
+    <item row="17" column="0" colspan="3">
+     <widget class="Line" name="line_4">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="j0_rel_line_edit"/>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="j1_rel_line_edit"/>
+    </item>
+    <item row="12" column="1">
+     <widget class="QLineEdit" name="j2_rel_line_edit"/>
+    </item>
+    <item row="16" column="1">
+     <widget class="QLineEdit" name="j3_rel_line_edit"/>
+    </item>
+    <item row="20" column="1">
+     <widget class="QLineEdit" name="j4_rel_line_edit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>442</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
